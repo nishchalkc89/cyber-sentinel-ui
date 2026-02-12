@@ -26,7 +26,7 @@ const Footer = () => {
 
   {/* Logo Image */}
   <img
-    src="/public/image.png"
+    src="/image.png"
     alt="RushIt Logo"
     className="w-20 h-20 object-contain drop-shadow-[0_0_6px_rgba(230,184,78,0.6)]"
   />
