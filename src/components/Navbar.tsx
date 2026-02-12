@@ -19,11 +19,18 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full gold-gradient flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">S</span>
-            </div>
-            <span className="text-foreground font-bold text-lg hidden sm:block">SecureDNA</span>
-          </a>
+
+  {/* PNG Logo */}
+  <img
+    src="/public/image.png"
+    alt="SecureDNA Logo"
+    className="w-20 h-20 object-contain drop-shadow-[0_0_6px_rgba(230,184,78,0.6)]"
+  />
+
+  {/* Company Name */}
+
+</a>
+
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-8">
@@ -41,11 +48,11 @@ const Navbar = () => {
           {/* Phone Button */}
           <div className="hidden lg:flex items-center">
             <a
-              href="tel:+1234567890"
+              href="tel:410-929-6145"
               className="gold-gradient text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold flex items-center gap-2 hover:gold-glow transition-all duration-300"
             >
               <Phone className="w-4 h-4" />
-              (123) 456-7890
+               410-929-6145
             </a>
           </div>
 
@@ -73,11 +80,11 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="tel:+1234567890"
+            href="tel:410-929-6145"
             className="gold-gradient text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold inline-flex items-center gap-2"
           >
             <Phone className="w-4 h-4" />
-            (123) 456-7890
+            410-929-6145
           </a>
         </div>
       )}

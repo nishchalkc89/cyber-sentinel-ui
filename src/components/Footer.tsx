@@ -23,11 +23,18 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Left - Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full gold-gradient flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">S</span>
-            </div>
-            <span className="text-foreground font-bold text-lg">SecureDNA LLC</span>
-          </div>
+
+  {/* Logo Image */}
+  <img
+    src="/public/image.png"
+    alt="SecureDNA Logo"
+    className="w-20 h-20 object-contain drop-shadow-[0_0_6px_rgba(230,184,78,0.6)]"
+  />
+
+
+
+</div>
+
 
           {/* Center - Nav Links */}
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">

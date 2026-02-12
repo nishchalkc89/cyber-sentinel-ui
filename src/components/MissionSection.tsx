@@ -9,10 +9,9 @@ const MissionSection = () => {
               Our <span className="gold-gradient-text">Mission</span> Statement
             </h2>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              Our mission is to empower organizations with robust cybersecurity strategies, innovative
-              technologies, and expert guidance that safeguard their digital environments. We are
-              committed to delivering tailored solutions that address evolving threats while maintaining
-              operational efficiency and regulatory compliance.
+              Our mission is to address the grand challenges in cybersecurity
+and privacy by implementing combined cyber-security and
+cyber-defense systems.
             </p>
           </div>
 

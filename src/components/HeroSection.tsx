@@ -8,10 +8,10 @@ const HeroSection = () => {
           <div className="fade-up">
             <div className="flex gap-6 mb-6">
               <div className="gold-border-glow rounded-full px-4 py-1.5 text-xs font-medium text-primary">
-                CAGE: <span className="text-foreground">XXXXX</span>
+                CAGE: <span className="text-foreground">8HLB0</span>
               </div>
               <div className="gold-border-glow rounded-full px-4 py-1.5 text-xs font-medium text-primary">
-                UEI: <span className="text-foreground">XXXXXXXXXXXX</span>
+                UEI: <span className="text-foreground">PENFM7L8H559</span>
               </div>
             </div>
 
@@ -21,8 +21,9 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-muted-foreground text-lg mb-8 max-w-lg leading-relaxed">
-              We provide comprehensive cybersecurity consulting, risk management, and compliance solutions
-              to protect your organization's most critical digital assets.
+              We work end-to-end across all IT dimensions,
+developing strategies to prevent downtime and
+secure your IT environment.
             </p>
 
             <a
@@ -40,16 +41,21 @@ const HeroSection = () => {
             <div className="absolute w-80 h-80 lg:w-[420px] lg:h-[420px] rounded-full border border-primary/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
 
             {/* Blob image container */}
-            <div className="w-56 h-72 sm:w-72 sm:h-80 lg:w-80 lg:h-96 blob-shape gold-gradient floating-blob flex items-center justify-center relative">
-              <div className="w-[95%] h-[95%] blob-shape bg-surface-elevated flex items-center justify-center overflow-hidden">
-                <div className="text-muted-foreground text-sm text-center p-4">
-                  <div className="w-16 h-16 mx-auto mb-3 rounded-full gold-border flex items-center justify-center">
-                    <span className="text-primary text-2xl">🛡️</span>
-                  </div>
-                  hero-img.jpg
-                </div>
-              </div>
-            </div>
+            {/* Blob image container */}
+<div className="w-56 h-72 sm:w-72 sm:h-80 lg:w-80 lg:h-96 blob-shape gold-gradient floating-blob flex items-center justify-center relative">
+  
+  <div className="w-[95%] h-[95%] blob-shape bg-surface-elevated flex items-center justify-center overflow-hidden">
+    
+    <img
+      src="/public/hero-img.png"
+      alt="Hero"
+      className="w-full h-full object-cover"
+    />
+
+  </div>
+
+</div>
+
           </div>
         </div>
       </div>

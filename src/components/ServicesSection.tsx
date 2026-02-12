@@ -4,17 +4,37 @@ const services = [
   {
     title: "Cloud Security Services & Products",
     description:
-      "Comprehensive cloud security assessments, architecture reviews, and implementation of security controls across AWS, Azure, and GCP environments.",
+      "Advanced cloud-delivered security to protect your business seamlessly.",
   },
   {
     title: "Cyber Security Management (VCISO)",
     description:
-      "Virtual Chief Information Security Officer services providing strategic leadership, policy development, and risk management oversight.",
+      "Expert cybersecurity strategies to safeguard your company’s future.",
   },
   {
     title: "IT Project Management",
     description:
-      "Expert project management for cybersecurity initiatives, ensuring on-time delivery, budget compliance, and stakeholder alignment.",
+      "Efficient planning and execution to keep projects on track and within budget.",
+  },
+  {
+    title: "Operational Technology Security",
+    description:
+      "Protecting critical infrastructure and industrial processes from cyber threats.",
+  },
+  {
+    title: "Network & Infrastructure Security",
+    description:
+      "Securing your network from unauthorized access and data breaches.",
+  },
+  {
+    title: "Enterprise IT Management",
+    description:
+      "Optimized IT solutions to streamline and enhance business operations.",
+  },
+  {
+    title: "SMB Managed Cybersecurity",
+    description:
+      "Comprehensive security services tailored for small and mid-sized businesses.",
   },
 ];
 
@@ -29,8 +49,8 @@ const ServicesSection = () => {
             Services <span className="gold-gradient-text">We Offer</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            We deliver a comprehensive suite of cybersecurity services designed to protect,
-            detect, and respond to the evolving threat landscape.
+            Rush IT LLC provides you with expertise in high-value managed security services. We deliver effective enterprise security risk management and situational awareness.
+Get our cybersecurity consulting services to help your business build cyber resilience for each building block of your digital DNA.
           </p>
         </div>
 

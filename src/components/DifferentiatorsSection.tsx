@@ -1,14 +1,11 @@
 import { Check } from "lucide-react";
 
 const differentiators = [
-  "SBA 8(a) Certified Small Disadvantaged Business",
-  "Veteran-Owned Small Business (VOSB)",
-  "HUBZone Certified",
-  "Top Secret Facility Clearance",
-  "CMMI Level 3 Appraised",
-  "ISO 27001 Certified",
-  "24/7 Security Operations Center",
-  "Proven Federal Contract Performance",
+  "We manage assets, ensure compliance, and implement  Zero Trust Security for small businesses and government  agencies.",
+  "Tailored for those without internal IT, we educate and help  develop well-run cybersecurity organizations.",
+  "Our engineers use proven global processes to design unique cybersecurity solutions.",
+  "Our portfolio includes Cloud Security, Cyber Security  Management, Project Management, and more.",
+  "Addressing grand challenges, we implement combined  cyber-security systems and aim to secure digital resources  for governments and provide sustainable solutions for small  businesses.",
 ];
 
 const DifferentiatorsSection = () => {

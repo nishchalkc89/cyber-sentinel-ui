@@ -4,17 +4,17 @@ const resources = [
   {
     title: "DSBS Profile",
     description:
-      "View our Dynamic Small Business Search profile for contract vehicle details and certifications.",
+      "The DSBS profile provides a comprehensive overview of a company's certifications, socioeconomic statuses, and specialized capabilities. It highlightsthe industries served, key services offered, past performance, and certifications, making it a key resource for federal agencies seeking qualified contractors.",
   },
   {
     title: "SAM Profile",
     description:
-      "Access our System for Award Management registration with full entity information and capabilities.",
+      "The SAM profile ensures a company’s active registration for federal contracts and compliance with government regulations. It includes essential details such as the CAGE code, UEI, NAICS codes, and socioeconomic certifications, confirming eligibility for award opportunities and participation in federal procurement.",
   },
   {
     title: "Capability Statement",
     description:
-      "Download our comprehensive capability statement outlining our services, past performance, and differentiators.",
+      "The Capability Statement is a concise document showcasing a company’s expertise, specialized services, and past performance. It outlines core competencies, differentiators, key projects, and certifications, positioning the company as a reliable and qualified partner for federal and commercial contracts.",
   },
 ];
 
@@ -29,7 +29,7 @@ const FederalResourcesSection = () => {
             Federal <span className="gold-gradient-text">Resources</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Access our federal profiles, certifications, and capability documentation for procurement officers and contracting professionals.
+            "Welcome to the RUSH IT Federal Resource Center, a comprehensive hub showcasing our unwavering commitment to excellence in federal contracting. Featuring our DSBS profile, SAM registration, and detailed capability statement, these resources highlight our proven expertise, regulatory compliance, and exceptional performance history. Explore our credentials to discover why RUSH IT is a trusted partner in delivering innovative, reliable solutions tailored to the needs of government agencies nationwide."
           </p>
         </div>
 

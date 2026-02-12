@@ -1,21 +1,27 @@
 const performances = [
   {
-    name: "Enterprise SOC Modernization",
-    date: "2022 – 2024",
-    value: "$4.2M",
-    details: "24/7 SOC operations for federal civilian agency with SIEM implementation and threat hunting.",
+    name: "Prestige Pratice Managment & IT services",
+    date: " 03/01/2022",
+    value: "$40,000",
+    details: "Desktop/Endpoint",
   },
   {
-    name: "Cloud Migration Security",
-    date: "2023 – Present",
-    value: "$2.8M",
-    details: "Security architecture and compliance for multi-cloud migration across AWS and Azure.",
+    name: "Breau of Labor and Statistics",
+    date: "03/01/2020",
+    value: "$47,000,000",
+    details: "2020-006-CIO-SP3-SC",
   },
   {
-    name: "Zero Trust Implementation",
-    date: "2021 – 2023",
-    value: "$3.5M",
-    details: "Enterprise-wide Zero Trust architecture deployment including identity management and microsegmentation.",
+    name: "Identity Security",
+    date: "09/01/2023",
+    value: "$10,000",
+    details: "Forescout",
+  },
+  {
+    name: "Artist Spotlight",
+    date: "03/01/2020",
+    value: "$15,000",
+    details: "Desktop/Endpoint",
   },
 ];
 
@@ -29,9 +35,6 @@ const PastPerformanceSection = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Past <span className="gold-gradient-text">Performance</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A track record of delivering mission-critical cybersecurity solutions on time and within budget.
-          </p>
         </div>
 
         {/* Cards */}

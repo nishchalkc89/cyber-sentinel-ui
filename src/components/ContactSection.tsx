@@ -1,12 +1,12 @@
 import { Phone, Mail, User, MapPin, Hash, FileText } from "lucide-react";
 
 const contactDetails = [
-  { icon: Phone, label: "Phone", value: "(123) 456-7890" },
-  { icon: Mail, label: "Email", value: "info@securedna.com" },
-  { icon: User, label: "POC", value: "John Doe, CEO" },
-  { icon: MapPin, label: "Address", value: "1234 Cyber Lane, Suite 100, Washington, DC 20001" },
-  { icon: Hash, label: "NAICS", value: "541512, 541519, 541611, 541690" },
-  { icon: FileText, label: "PSC", value: "D302, D306, D307, D399" },
+  { icon: Phone, label: "Phone", value: "410-929-6145" },
+  { icon: Mail, label: "Email", value: " crush@rushitllc.com" },
+  { icon: User, label: "POC", value: "Charles Edward Rush" },
+  { icon: MapPin, label: "Address", value: "3520 Corn Stream Rd, Randallstown, Md  21133" },
+  { icon: Hash, label: "NAICS", value: "541519(P),541512, 561611, 541330,541611" },
+  { icon: FileText, label: "PSC", value: "R499,D399,D310,D302,R799,R408,R425,R420" },
 ];
 
 const ContactSection = () => {
@@ -28,9 +28,11 @@ const ContactSection = () => {
 
           {/* Right - Contact Info */}
           <div className="fade-up fade-up-delay-2">
+            
             <h2 className="text-3xl sm:text-4xl font-bold mb-8">
               Contact <span className="gold-gradient-text">Information</span>
             </h2>
+            
 
             <div className="space-y-5">
               {contactDetails.map((item) => (

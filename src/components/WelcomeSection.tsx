@@ -25,15 +25,17 @@ const WelcomeSection = () => {
           {/* Right - Content */}
           <div className="fade-up fade-up-delay-2">
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              Welcome to <span className="gold-gradient-text">SecureDNA</span> LLC
+              Welcome to <span className="gold-gradient-text">Rush IT LLC</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              SecureDNA LLC is a veteran-owned, SBA 8(a) certified cybersecurity consulting firm
-              specializing in delivering enterprise-grade security solutions to federal agencies and
-              commercial organizations. Our team of seasoned professionals brings decades of combined
-              experience in protecting critical infrastructure, managing cyber risk, and ensuring
-              regulatory compliance across diverse industry sectors.
-            </p>
+  Let’s add maximum value and bring success to your business through
+  high-quality IT consulting services. From downtime to reduced employee
+  productivity and potential security breaches, we will take care of your IT needs.
+  <br /><br />
+  Experience our difference. Let us show you through our carefully chosen
+  technology solutions.
+</p>
+
 
             {/* Mobile image - below paragraph */}
             <div className="flex lg:hidden justify-center mt-8">
