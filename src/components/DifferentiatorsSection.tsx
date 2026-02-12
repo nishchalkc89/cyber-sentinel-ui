@@ -32,16 +32,21 @@ const DifferentiatorsSection = () => {
 
           {/* Right - Image */}
           <div className="flex justify-center fade-up fade-up-delay-2">
-            <div className="w-full max-w-md h-72 sm:h-96 rounded-3xl bg-primary-foreground/10 backdrop-blur-sm flex items-center justify-center overflow-hidden relative">
-              <div className="absolute inset-0 bg-gradient-to-t from-primary-foreground/20 to-transparent" />
-              <div className="text-primary-foreground/60 text-sm text-center relative z-10">
-                <div className="w-12 h-12 mx-auto mb-2 rounded-full border border-primary-foreground/30 flex items-center justify-center">
-                  <span className="text-xl">🏢</span>
-                </div>
-                service2.jpg
-              </div>
-            </div>
-          </div>
+  <div className="w-full max-w-md h-72 sm:h-96 rounded-3xl bg-primary-foreground/10 backdrop-blur-sm flex items-center justify-center overflow-hidden relative">
+
+    {/* Image */}
+    <img
+      src="/service2.png"
+      alt="Service"
+      className="w-full h-full object-cover relative z-10"
+    />
+
+    {/* Gradient Overlay */}
+    <div className="absolute inset-0 bg-gradient-to-t from-primary-foreground/20 to-transparent pointer-events-none" />
+
+  </div>
+</div>
+
         </div>
       </div>
     </section>

@@ -5,38 +5,46 @@ const services = [
     title: "Cloud Security Services & Products",
     description:
       "Advanced cloud-delivered security to protect your business seamlessly.",
+    image: "/service1.png",
   },
   {
     title: "Cyber Security Management (VCISO)",
     description:
       "Expert cybersecurity strategies to safeguard your company’s future.",
+    image: "/service21.png",
   },
   {
     title: "IT Project Management",
     description:
       "Efficient planning and execution to keep projects on track and within budget.",
+    image: "/service3.png",
   },
   {
     title: "Operational Technology Security",
     description:
       "Protecting critical infrastructure and industrial processes from cyber threats.",
+    image: "/service4.png",
   },
   {
     title: "Network & Infrastructure Security",
     description:
       "Securing your network from unauthorized access and data breaches.",
+    image: "/service5.png",
   },
   {
     title: "Enterprise IT Management",
     description:
       "Optimized IT solutions to streamline and enhance business operations.",
+    image: "/service6.png",
   },
   {
     title: "SMB Managed Cybersecurity",
     description:
       "Comprehensive security services tailored for small and mid-sized businesses.",
+    image: "/service7.png",
   },
 ];
+
 
 const ServicesSection = () => {
   return (
@@ -56,10 +64,17 @@ Get our cybersecurity consulting services to help your business build cyber resi
 
         {/* Service Cards */}
         <div className="space-y-5">
-          {services.map((service, i) => (
-            <ServiceCard key={service.title} title={service.title} description={service.description} index={i} />
-          ))}
-        </div>
+  {services.map((service, i) => (
+    <ServiceCard
+      key={service.title}
+      title={service.title}
+      description={service.description}
+      image={service.image}   // ✅ ADD THIS LINE
+      index={i}
+    />
+  ))}
+</div>
+
       </div>
     </section>
   );

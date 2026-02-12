@@ -4,19 +4,23 @@ const resources = [
   {
     title: "DSBS Profile",
     description:
-      "The DSBS profile provides a comprehensive overview of a company's certifications, socioeconomic statuses, and specialized capabilities. It highlightsthe industries served, key services offered, past performance, and certifications, making it a key resource for federal agencies seeking qualified contractors.",
+      "The DSBS profile provides a comprehensive overview of a company's certifications...",
+    image: "/dsbs.png",
   },
   {
     title: "SAM Profile",
     description:
-      "The SAM profile ensures a company’s active registration for federal contracts and compliance with government regulations. It includes essential details such as the CAGE code, UEI, NAICS codes, and socioeconomic certifications, confirming eligibility for award opportunities and participation in federal procurement.",
+      "The SAM profile ensures a company’s active registration for federal contracts...",
+    image: "/sam.png",
   },
   {
     title: "Capability Statement",
     description:
-      "The Capability Statement is a concise document showcasing a company’s expertise, specialized services, and past performance. It outlines core competencies, differentiators, key projects, and certifications, positioning the company as a reliable and qualified partner for federal and commercial contracts.",
+      "The Capability Statement is a concise document showcasing a company’s expertise...",
+    image: "/capability.png",
   },
 ];
+
 
 const FederalResourcesSection = () => {
   return (
@@ -42,9 +46,14 @@ const FederalResourcesSection = () => {
               style={{ animationDelay: `${i * 0.15}s` }}
             >
               {/* Blob image */}
-              <div className="w-20 h-20 min-w-[5rem] blob-shape bg-surface gold-border flex items-center justify-center">
-                <span className="text-primary text-2xl">📄</span>
-              </div>
+              <div className="w-20 h-20 min-w-[5rem] blob-shape bg-white gold-border flex items-center justify-center p-2 overflow-hidden">
+  <img
+    src={resource.image}
+    alt={resource.title}
+    className="w-full h-full object-contain"
+  />
+</div>
+
 
               {/* Text */}
               <div className="flex-1 text-center sm:text-left">

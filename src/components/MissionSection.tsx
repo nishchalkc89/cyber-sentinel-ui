@@ -17,21 +17,24 @@ cyber-defense systems.
 
           {/* Right - Image */}
           <div className="flex justify-center fade-up fade-up-delay-2">
-            <div className="relative">
-              <div className="w-56 h-72 sm:w-72 sm:h-80 blob-shape-2 bg-surface-elevated gold-border flex items-center justify-center overflow-hidden floating-blob">
-                <div className="text-muted-foreground text-sm text-center">
-                  <div className="w-12 h-12 mx-auto mb-2 rounded-full gold-border flex items-center justify-center">
-                    <span className="text-primary">🎯</span>
-                  </div>
-                  service1.jpg
-                </div>
-              </div>
-              {/* Badge */}
-              <div className="absolute -bottom-4 -left-4 gold-gradient text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold shadow-lg">
-                Join Our Team
-              </div>
-            </div>
-          </div>
+  <div className="relative">
+    <div className="w-56 h-72 sm:w-72 sm:h-80 blob-shape-2 bg-surface-elevated gold-border flex items-center justify-center overflow-hidden floating-blob">
+      
+      <img
+        src="/mission.png"
+        alt="Mission"
+        className="w-full h-full object-cover"
+      />
+
+    </div>
+
+    {/* Badge */}
+    <div className="absolute -bottom-4 -left-4 gold-gradient text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold shadow-lg">
+      Join Our Team
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </section>
