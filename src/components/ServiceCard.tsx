@@ -9,12 +9,16 @@ const ServiceCard = ({ title, description, index }: ServiceCardProps) => {
     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4 sm:gap-6 p-5 sm:p-6 rounded-2xl bg-surface-elevated gold-border-glow hover:gold-glow transition-all duration-300 group fade-up"
       style={{ animationDelay: `${index * 0.15}s` }}
     >
-      {/* Oval image placeholder */}
-      <div className="w-16 h-20 sm:w-20 sm:h-24 min-w-[4rem] sm:min-w-[5rem] rounded-[50%] bg-surface gold-border flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-        <span className="text-primary text-xl">🔒</span>
+      {/* Blob image placeholder - replaceable */}
+      <div className="w-24 h-28 sm:w-24 sm:h-28 min-w-[6rem] blob-shape bg-surface border border-primary/30 flex items-center justify-center group-hover:scale-105 transition-transform duration-300 overflow-hidden">
+        <img
+          src="/placeholder.svg"
+          alt={title}
+          className="w-10 h-10 opacity-50"
+        />
       </div>
 
-      {/* Gold gradient bar - vertical on desktop, horizontal on mobile */}
+      {/* Gold gradient bar */}
       <div className="hidden sm:block w-1 h-16 rounded-full gold-gradient opacity-60" />
       <div className="sm:hidden w-16 h-0.5 rounded-full gold-gradient opacity-60" />
 
