@@ -9,17 +9,26 @@ import FederalResourcesSection from "@/components/FederalResourcesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
+const SectionDivider = () => <div className="section-divider max-w-5xl mx-auto" />;
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
+      <SectionDivider />
       <WelcomeSection />
+      <SectionDivider />
       <MissionSection />
+      <SectionDivider />
       <ServicesSection />
+      <SectionDivider />
       <DifferentiatorsSection />
+      <SectionDivider />
       <PastPerformanceSection />
+      <SectionDivider />
       <FederalResourcesSection />
+      <SectionDivider />
       <ContactSection />
       <Footer />
     </div>

@@ -40,7 +40,7 @@ const HeroSection = () => {
             <div className="absolute w-80 h-80 lg:w-[420px] lg:h-[420px] rounded-full border border-primary/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
 
             {/* Blob image container */}
-            <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 blob-shape gold-gradient floating-blob flex items-center justify-center relative">
+            <div className="w-56 h-72 sm:w-72 sm:h-80 lg:w-80 lg:h-96 blob-shape gold-gradient floating-blob flex items-center justify-center relative">
               <div className="w-[95%] h-[95%] blob-shape bg-surface-elevated flex items-center justify-center overflow-hidden">
                 <div className="text-muted-foreground text-sm text-center p-4">
                   <div className="w-16 h-16 mx-auto mb-3 rounded-full gold-border flex items-center justify-center">

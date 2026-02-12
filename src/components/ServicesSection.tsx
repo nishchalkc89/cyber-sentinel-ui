@@ -20,7 +20,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-20 lg:py-28 relative overflow-hidden">
+    <section id="services" className="py-12 lg:py-20 relative overflow-hidden">
       <div className="dotted-grid absolute inset-0 opacity-20" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
