@@ -20,7 +20,7 @@ const resources = [
 
 const FederalResourcesSection = () => {
   return (
-    <section id="resources" className="py-20 lg:py-28 relative overflow-hidden">
+    <section id="resources" className="py-12 lg:py-20 relative overflow-hidden">
       <div className="dotted-grid absolute inset-0 opacity-20" />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}

@@ -1,6 +1,6 @@
 const MissionSection = () => {
   return (
-    <section className="py-20 lg:py-28 relative overflow-hidden">
+    <section className="py-12 lg:py-20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left - Content */}
@@ -19,7 +19,7 @@ const MissionSection = () => {
           {/* Right - Image */}
           <div className="flex justify-center fade-up fade-up-delay-2">
             <div className="relative">
-              <div className="w-64 h-64 sm:w-80 sm:h-80 blob-shape-2 bg-surface-elevated gold-border flex items-center justify-center overflow-hidden floating-blob">
+              <div className="w-56 h-72 sm:w-72 sm:h-80 blob-shape-2 bg-surface-elevated gold-border flex items-center justify-center overflow-hidden floating-blob">
                 <div className="text-muted-foreground text-sm text-center">
                   <div className="w-12 h-12 mx-auto mb-2 rounded-full gold-border flex items-center justify-center">
                     <span className="text-primary">🎯</span>
