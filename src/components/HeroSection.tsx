@@ -47,7 +47,7 @@ secure your IT environment.
   <div className="w-[95%] h-[95%] blob-shape bg-surface-elevated flex items-center justify-center overflow-hidden">
     
     <img
-      src="/public/hero-img.png"
+      src="/hero-img.png"
       alt="Hero"
       className="w-full h-full object-cover"
     />
